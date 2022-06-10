@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>デモ 掲示板</title>
+</head>
+<body>
+    <h1>デモ 掲示板投稿</h1>
+    <form action="comp.php">
+        <label>題名</label>
+        <input type="text" name="text" value="{{text}}"><br>
+        <label>内容</label>
+        <textarea name="content" id="content" cols="30" rows="10">{{content}}</textarea>
+        <br>
+        <input type="submit" value="投稿">
+    </form>
+</body>
+</html>
